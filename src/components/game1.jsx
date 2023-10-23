@@ -9,8 +9,14 @@ const Game1 = () => {
         <div className="inner-section px-4 py-6">
           <p className="text-dark-blue text-bold sm:text-2xl xl:text-6xl">HOME</p>
         </div>
-        <div className="inner-section px-4 py-6">Bagian 1, Bagian 2</div>
-        <div className="inner-section px-4 py-6">Bagian 1, Bagian 3</div>
+        <div className="inner-section px-4 py-6"></div>
+        <div className="inner-section px-4 py-6">
+        <div className="sm:text-md xl:text-2xl">
+          Two Point Goals: 
+          <br/>
+          Three Point Goals:
+        </div>
+        </div>
       </div>
       <div className="section px-4 py-6 bg-dark-blue">
         <div className="inner-section px-4 py-6">
@@ -42,8 +48,14 @@ const Game1 = () => {
         <div className="inner-section px-4 py-6">
           <p className="text-dark-blue sm:text-2xl xl:text-6xl">AWAY</p>
         </div>
-        <div className="inner-section px-4 py-6">Bagian 3, Bagian 2</div>
-        <div className="inner-section px-4 py-6">Bagian 3, Bagian 3</div>
+        <div className="inner-section px-4 py-6"></div>
+        <div className="inner-section px-4 py-6">
+        <div className="sm:text-md xl:text-2xl">
+          Two Point Goals: 
+          <br/>
+          Three Point Goals:
+        </div>
+        </div>
       </div>
     </div>
   );
